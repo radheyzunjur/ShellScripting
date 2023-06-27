@@ -9,5 +9,5 @@ echo "$backup_file"
 echo "taking backup at $curr_timestamp"
 
 tar czf $backup_file $src_file ./*
-echo "backup file"
+echo "backup file created"
 
